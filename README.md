@@ -23,6 +23,7 @@ For using fzf with git.
 git clone https://github.com/junegunn/fzf-git.sh.git ~/.tools/fzf-git.sh
 ```
 
-
-
-
+Finally run the command below in the ~/.dotfiles directory
+```
+stow .
+```
