@@ -6,7 +6,7 @@ Before starting the installation process make sure you have homebrew installed.
 
 Please run the following command into your terminal. It will install all the tools needed to run my dev enviorment.
 ```
-brew install stow && brew install neovim && brew install koekeishiya/formulae/yabai && brew install koekeishiya/formulae/skhd && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck 
+brew install stow && brew install neovim && brew install koekeishiya/formulae/yabai && brew install koekeishiya/formulae/skhd && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck && brew install zsh-syntax-highlighting && brew install zsh-autosuggestions
 ```
 
 You may also need to install the following.
