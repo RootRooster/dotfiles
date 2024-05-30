@@ -14,7 +14,6 @@ return {
 				null_ls.builtins.diagnostics.pylint,
 				-- javascript
 				null_ls.builtins.formatting.prettier,
-				null_ls.builtins.diagnostics.eslint_d,
 			},
 		})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {}) -- this is for formatting

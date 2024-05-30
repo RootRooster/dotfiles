@@ -8,7 +8,7 @@ return {
         -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     },
     config = function()
-        vim.keymap.set('n', '<S-C-L>', ':Neotree filesystem toggle right<CR>') -- <CR> is return 
-        vim.keymap.set('n', '<C-l>', ':Neotree<CR>') -- <CR> is return 
+        -- command below will toggle the file system on the right side
+        vim.keymap.set('n', '<leader>e', ':Neotree filesystem toggle right<CR>') -- <CR> is return 
     end
 }
