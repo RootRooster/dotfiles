@@ -6,7 +6,7 @@ Before starting the installation process make sure you have homebrew installed.
 
 Please run the following command into your terminal. It will install all the tools needed to run my dev enviorment.
 ```
-brew install stow && brew install neovim && brew install koekeishiya/formulae/yabai && brew install koekeishiya/formulae/skhd && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck && brew install zsh-syntax-highlighting && brew install zsh-autosuggestions
+brew install stow && brew install neovim && brew install koekeishiya/formulae/yabai && brew install koekeishiya/formulae/skhd && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck &&
 ```
 
 You may also need to install the following.
@@ -21,6 +21,11 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 For using fzf with git.
 ```
 git clone https://github.com/junegunn/fzf-git.sh.git ~/.tools/fzf-git.sh
+```
+For zsh to work:
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
 Finally run the command below in the ~/.dotfiles directory

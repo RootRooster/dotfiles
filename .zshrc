@@ -147,7 +147,7 @@ eval "$(fzf --zsh)"
 # fd is like find except it is more simple
 # the command bellow shows hidden files, strips the cwd, and excludes git files
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
-export FZF_COMPLETION_TRIGGER='~~'
+export FZF_COMPLETION_TRIGGER='**'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_COMPLETION_OPTS='--border --info=inline'
 # searches only the directory types
