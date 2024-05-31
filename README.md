@@ -32,3 +32,17 @@ Finally run the command below in the ~/.dotfiles directory
 ```
 stow .
 ```
+
+## Starting yabai and skhd 
+Type in the following commands to start yabai and skhd.
+```
+yabai --start-service
+```
+```
+skhd --start-service
+```
+```
+yabai --restart-service
+```
+```
+skhd --restart-service
