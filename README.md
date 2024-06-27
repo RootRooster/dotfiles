@@ -27,6 +27,7 @@ For zsh to work:
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
+For tmux to install the plugins: Open tmux and type `prefix + I`. Prefix is by defailt set to control+b.
 
 Finally run the command below in the ~/.dotfiles directory
 ```
