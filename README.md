@@ -47,3 +47,7 @@ yabai --restart-service
 ```
 ```
 skhd --restart-service
+```
+
+## Rebuilding bat command catche
+This config comes with bat to print files. If bat is not installed follow the steps on this GitHub repo: [GitHub](https://github.com/catppuccin/bat).
