@@ -15,12 +15,12 @@ vim.opt.number = true
 -- this replaces the tab character with spaces
 vim.opt.expandtab = true
 -- tabstop defines how many spaces a tab takes
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 -- number of spaces when tab key is pressed in insert mode
-vim.opt.softtabstop = 4
+vim.opt.softtabstop = 2
 -- number of spaces for each indentation level
 -- used with >>, << ...
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 
 -- when searching ignore capital letters
 vim.opt.ignorecase = true
