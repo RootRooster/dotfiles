@@ -111,6 +111,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# VI MODE SETTINGS
+VI_MODE_SET_CURSOR=true
+# defaults
+VI_MODE_CURSOR_NORMAL=0
+VI_MODE_CURSOR_VISUAL=6
+VI_MODE_CURSOR_INSERT=5
+VI_MODE_CURSOR_OPPEND=0
 # use control plus space to accept suggestion from zsh-autosuggestions
 bindkey '^ ' autosuggest-accept
 
