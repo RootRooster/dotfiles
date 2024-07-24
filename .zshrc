@@ -77,9 +77,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git
+  git
 	zsh-syntax-highlighting
 	zsh-autosuggestions
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -109,10 +110,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Enable or diable the vim mode
-set -o vi
-bindkey '^[' vi-cmd-mode
 
 # use control plus space to accept suggestion from zsh-autosuggestions
 bindkey '^ ' autosuggest-accept
