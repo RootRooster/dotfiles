@@ -8,6 +8,7 @@ return {
 			"saadparwaiz1/cmp_luasnip", -- completion engine for luasnip
 			"rafamadriz/friendly-snippets", -- snippers loaded from this
 		},
+    build="make install_jsregexp"
 	},
 	{
 		"hrsh7th/nvim-cmp",
