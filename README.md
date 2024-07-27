@@ -9,6 +9,11 @@ Please run the following command into your terminal. It will install all the too
 brew install stow && brew install neovim && brew install koekeishiya/formulae/yabai && brew install koekeishiya/formulae/skhd && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck && brew install neofetch && brew install btop && brew install --cask kitty && brew install wget
 ```
 
+Install neovide - a rust based NeoVim editor.
+```
+brew install --cask neovide
+```
+
 You may also need to install the following.
 For powerlevel10k theme:
 ```
