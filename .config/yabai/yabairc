@@ -32,3 +32,8 @@ yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
 yabai -m rule --add app="^Steam$" manage=off
+yabai -m rule --add app="^Music$" manage=off
+yabai -m rule --add app="^Final Cut Pro$" manage=off
+yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app="^App Cleaner$" manage=off
+yabai -m rule --add app="^Preview$" manage=off
