@@ -56,3 +56,9 @@ skhd --restart-service
 
 ## Rebuilding bat command catche
 This config comes with bat to print files. If bat is not installed follow the steps on this GitHub repo: [GitHub](https://github.com/catppuccin/bat).
+
+
+## TODOS
+Maybe replace the current java configuration by deleting the openjdk in brew and removing the current java zshrc config. Replacing it with jenv:
+https://www.jenv.be/
+Need to figure out if this is better.
