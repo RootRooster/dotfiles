@@ -16,7 +16,8 @@ return {
           "emmet_language_server",
           "tailwindcss",
           "eslint",
-          "clangd"
+          "clangd",
+          "jdtls",
         },
       })
     end,
@@ -45,7 +46,10 @@ return {
         capabilities,
       })
       lspconfig.clangd.setup({
-        capabilities
+        capabilities,
+      })
+      lspconfig.jdtls.setup({
+        capabilities,
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
