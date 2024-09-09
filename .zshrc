@@ -223,3 +223,9 @@ alias cd="z"
 
 # bat alias for cat
 alias cat="bat"
+
+# Java config
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+# In order for compilers to find openjdk uncomment the line below
+# export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+
