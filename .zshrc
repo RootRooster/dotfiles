@@ -229,3 +229,10 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # In order for compilers to find openjdk uncomment the line below
 # export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
+# This if for the SMLNJ language
+# this is for a school project so remove the smlnj with brew and the following lines when done
+# also remove rlwrap
+# brew uninstall rlwrap
+# brew uninstall smlnj
+alias sml='rlwrap sml'
+alias smla='rlwrap -r smlnj' 
