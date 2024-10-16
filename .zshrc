@@ -234,5 +234,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # also remove rlwrap
 # brew uninstall rlwrap
 # brew uninstall smlnj
-alias sml='rlwrap sml'
-alias smla='rlwrap -r smlnj' 
+# brew uninstall mlton
+# alias sml='rlwrap sml'
+# alias smla='rlwrap -r smlnj' 
+export PATH=$PATH:/usr/local/smlnj/bin
