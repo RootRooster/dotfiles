@@ -2,7 +2,7 @@ return {
   "jez/vim-better-sml",
   config = function()
     vim.keymap.set("n", "<leader>it", ":SMLTypeQuery<CR>")
-    vim.keymap.set("n", "id", ":SMLJumpToDef<CR>")
+    vim.keymap.set("n", "<leader>id", ":SMLJumpToDef<CR>")
     vim.keymap.set("n", "<leader>is", ":SMLReplStart<CR>")
     vim.keymap.set("n", "<leader>ik", ":SMLReplStop<CR>")
     vim.keymap.set("n", "<leader>ib", ":SMLReplBuild<CR>")
