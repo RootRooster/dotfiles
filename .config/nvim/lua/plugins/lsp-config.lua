@@ -18,6 +18,7 @@ return {
           "eslint",
           "clangd",
           "jdtls",
+          "julials",
         },
       })
     end,
@@ -49,6 +50,9 @@ return {
         capabilities,
       })
       lspconfig.jdtls.setup({
+        capabilities,
+      })
+      lspconfig.julials.setup({
         capabilities,
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
