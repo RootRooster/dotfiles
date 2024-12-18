@@ -12,7 +12,7 @@ return {
         ensure_installed = {
           "lua_ls",
           "pylsp",
-          "tsserver",
+          "ts_ls",
           "emmet_language_server",
           "tailwindcss",
           "eslint",
@@ -34,7 +34,7 @@ return {
       lspconfig.pylsp.setup({
         capabilities,
       })
-      lspconfig.tsserver.setup({
+      lspconfig.ts_ls.setup({
         capabilities,
       })
       lspconfig.tailwindcss.setup({
