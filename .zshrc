@@ -238,3 +238,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # alias sml='rlwrap sml'
 # alias smla='rlwrap -r smlnj' 
 export PATH=$PATH:/usr/local/smlnj/bin
+
+
+# starship prompt initialization
+eval "$(starship init zsh)"
