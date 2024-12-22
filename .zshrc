@@ -14,7 +14,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -229,3 +229,16 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # In order for compilers to find openjdk uncomment the line below
 # export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
+# This if for the SMLNJ language
+# this is for a school project so remove the smlnj with brew and the following lines when done
+# also remove rlwrap
+# brew uninstall rlwrap
+# brew uninstall smlnj
+# brew uninstall mlton
+# alias sml='rlwrap sml'
+# alias smla='rlwrap -r smlnj' 
+export PATH=$PATH:/usr/local/smlnj/bin
+
+
+# starship prompt initialization
+eval "$(starship init zsh)"

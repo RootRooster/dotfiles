@@ -12,12 +12,13 @@ return {
         ensure_installed = {
           "lua_ls",
           "pylsp",
-          "tsserver",
+          "ts_ls",
           "emmet_language_server",
           "tailwindcss",
           "eslint",
           "clangd",
           "jdtls",
+          "julials",
         },
       })
     end,
@@ -33,7 +34,7 @@ return {
       lspconfig.pylsp.setup({
         capabilities,
       })
-      lspconfig.tsserver.setup({
+      lspconfig.ts_ls.setup({
         capabilities,
       })
       lspconfig.tailwindcss.setup({
@@ -49,6 +50,9 @@ return {
         capabilities,
       })
       lspconfig.jdtls.setup({
+        capabilities,
+      })
+      lspconfig.julials.setup({
         capabilities,
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
