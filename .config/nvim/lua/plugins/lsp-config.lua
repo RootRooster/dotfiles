@@ -55,6 +55,9 @@ return {
       lspconfig.julials.setup({
         capabilities,
       })
+      lspconfig.racket_langserver.setup({
+        capabilities
+      })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
