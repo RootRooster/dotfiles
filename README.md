@@ -59,6 +59,10 @@ This config comes with bat to print files. If bat is not installed follow the st
 
 
 ## TODOS
-Maybe replace the current java configuration by deleting the openjdk in brew and removing the current java zshrc config. Replacing it with jenv:
+ - Maybe replace the current java configuration by deleting the openjdk in brew and removing the current java zshrc config. Replacing it with jenv:
 https://www.jenv.be/
 Need to figure out if this is better.
+
+ - Remove conda from zsh
+ - Figure out a way to have a more modular neovim
+ - Figure out a way to have a more modular package mangeer (NixOS)
