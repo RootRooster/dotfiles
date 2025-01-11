@@ -59,6 +59,19 @@ outer.bottom =     10
 outer.top =        10
 outer.right =      10
 
+# Multiple monitor based workflows
+# set some workspace numbers to certain monitors
+[workspace-to-monitor-force-assignment]
+    1 = 1                            # Monitor sequence number from left to right. 1-based indexing
+    9 = 'secondary'
+#    2 = 'main'                       # Main monitor
+#    3 = 'secondary'                  # Non-main monitor in case when there are only two monitors
+#    4 = 'built-in'                   # Case insensitive regex substring
+#    5 = '^built-in retina display$'  # Case insensitive regex match
+#    6 = ['secondary', 'dell']        # You can specify multiple patterns.
+                                     #   The first matching pattern will be used
+
+
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
