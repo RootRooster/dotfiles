@@ -63,6 +63,6 @@ This config comes with bat to print files. If bat is not installed follow the st
 https://www.jenv.be/
 Need to figure out if this is better.
 
- - Remove conda from zsh
  - Figure out a way to have a more modular neovim
  - Figure out a way to have a more modular package mangeer (NixOS)
+ - remove skhd nad yabai -- no need for these two since aerospace
