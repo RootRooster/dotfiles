@@ -6,7 +6,7 @@ Before starting the installation process make sure you have homebrew installed.
 
 Please run the following command into your terminal. It will install all the tools needed to run my dev enviorment.
 ```
-brew install stow && brew install neovim && brew install koekeishiya/formulae/yabai && brew install koekeishiya/formulae/skhd && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck && brew install neofetch && brew install btop && brew install --cask kitty && brew install wget && brew install --cask nikitabobko/tap/aerospace && brew install openjdk
+brew install stow && brew install neovim && brew install zoxide && brew install ripgrep && brew install bat && brew install tmux && brew install fzf && brew install fd && brew install git-delta && brew install eza && brew install tlrc && brew install thefuck && brew install neofetch && brew install btop && brew install --cask kitty && brew install wget && brew install --cask nikitabobko/tap/aerospace && brew install openjdk
 ```
 
 Install neovide - a rust based NeoVim editor.
@@ -39,20 +39,8 @@ Finally run the command below in the ~/.dotfiles directory
 stow .
 ```
 
-## Starting yabai and skhd - legacy 
-Type in the following commands to start yabai and skhd. Yabai and skhd have been replaced with aerospace.
-```
-yabai --start-service
-```
-```
-skhd --start-service
-```
-```
-yabai --restart-service
-```
-```
-skhd --restart-service
-```
+## Window manager - AEROSPACE
+Its plug and play. Configuration file is provided in the repo.
 
 ## Rebuilding bat command catche
 This config comes with bat to print files. If bat is not installed follow the steps on this GitHub repo: [GitHub](https://github.com/catppuccin/bat).
