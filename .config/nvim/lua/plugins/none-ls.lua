@@ -10,7 +10,7 @@ return {
 					-- lua
 					null_ls.builtins.formatting.stylua,
 					-- python
-          -- enable python linting by will
+          -- enable pylint if you want very strict linting
           -- null_ls.builtins.diagnostics.pylint,
 					-- javascript
 					null_ls.builtins.formatting.prettier,
