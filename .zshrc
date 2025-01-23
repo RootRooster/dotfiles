@@ -263,3 +263,6 @@ eval "$(starship init zsh)"
 
 # custom scripts
 export PATH="$HOME/.zsh/scripts:$PATH"
+
+# move to icloud folder
+alias ic='cd ~/Library/Mobile Documents/com~apple~CloudDocs'
