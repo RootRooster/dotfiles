@@ -19,7 +19,6 @@ return {
           "clangd",
           "jdtls",
           "julials",
-          "millet",
         },
       })
     end,
@@ -54,12 +53,6 @@ return {
         capabilities,
       })
       lspconfig.julials.setup({
-        capabilities,
-      })
-      lspconfig.racket_langserver.setup({
-        capabilities,
-      })
-      lspconfig.millet.setup({
         capabilities,
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})

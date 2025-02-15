@@ -231,35 +231,8 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # In order for compilers to find openjdk uncomment the line below
 # export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
-# This if for the SMLNJ language
-# this is for a school project so remove the smlnj with brew and the following lines when done
-# also remove rlwrap
-# brew uninstall rlwrap
-# brew uninstall smlnj
-# brew uninstall mlton
-# alias sml='rlwrap sml'
-# alias smla='rlwrap -r smlnj' 
-export PATH=$PATH:/usr/local/smlnj/bin
-
-
 # starship prompt initialization
 eval "$(starship init zsh)"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
-#         . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# conda deactivate
-# <<< conda initialize <<<
 
 # custom scripts
 export PATH="$HOME/.zsh/scripts:$PATH"
