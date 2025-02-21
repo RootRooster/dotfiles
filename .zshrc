@@ -239,3 +239,6 @@ export PATH="$HOME/.zsh/scripts:$PATH"
 
 # move to icloud folder
 alias ic='cd ~/Library/Mobile Documents/com~apple~CloudDocs'
+
+# colima alias to start docker demon
+alias dockerd=colima
