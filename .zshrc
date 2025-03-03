@@ -223,9 +223,6 @@ alias ll="eza --color=always --all --long --git --icons=always"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
-# bat alias for cat
-alias cat="bat"
-
 # Java config
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # In order for compilers to find openjdk uncomment the line below
