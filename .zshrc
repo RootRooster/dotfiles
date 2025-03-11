@@ -236,3 +236,11 @@ export PATH="$HOME/.zsh/scripts:$PATH"
 
 # move to icloud folder
 alias ic='cd ~/Library/Mobile Documents/com~apple~CloudDocs'
+
+# pnpm
+export PNPM_HOME="/Users/nikcadez/.pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
