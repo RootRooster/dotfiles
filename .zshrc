@@ -244,3 +244,19 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+
+
+# Join tmux shell that is currenty running when opening the terminal
+# Check if tmux is already running
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+  # Check if there are any existing tmux sessions
+  if tmux ls &> /dev/null; then
+    # Attach to the last session
+    tmux attach-session -t $(tmux ls | grep -o '^[^:]*' | tail -n 1)
+  else
+    # Start a new session if no sessions exist
+    tmux new-session
+  fi
+fi
+
