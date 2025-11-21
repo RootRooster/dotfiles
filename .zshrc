@@ -246,4 +246,6 @@ esac
 # pnpm end
 
 
+# Ghidra alias
+alias ghidra="(brew --prefix)/Cellar/ghidra/11.4.2/libexec/ghidraRun"
 
