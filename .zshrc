@@ -221,7 +221,8 @@ alias ll="eza --color=always --all --long --git --icons=always"
 # zoxide is just a smarter cd
 # it can do all that cd does and more
 eval "$(zoxide init zsh)"
-alias cd="z"
+# removed the alias -- uncomment to undo
+# alias cd="z"
 
 # Java config
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
@@ -247,5 +248,5 @@ esac
 
 
 # Ghidra alias
-alias ghidra="(brew --prefix)/Cellar/ghidra/11.4.2/libexec/ghidraRun"
+alias ghidra="/opt/homebrew/Cellar/ghidra/11.4.2/libexec/ghidraRun"
 
